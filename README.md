@@ -1,7 +1,8 @@
-# ⚠️ Legacy Version
+# ⚠️ MIFA VPN Legacy — исторический репозиторий
 
-Этот репозиторий больше не развивается.
-Новая версия платформы: https://github.com/kolpakovden/mifa-vpn-platform
+Разработка завершена. Репозиторий сохраняется как историческая версия MIFA VPN и предназначен только для чтения. Для новых развёртываний используйте [MIFA VPN Basic](https://github.com/kolpakovden/mifa-vpn-basic). Основная архитектура развивается в [MIFA VPN Core](https://github.com/kolpakovden/mifa-vpn-core) (приватный репозиторий, ссылка доступна только авторизованным участникам).
+
+Архивный стек с мониторингом: [MIFA VPN Platform](https://github.com/kolpakovden/mifa-vpn-platform). Примеры ниже оставлены исключительно для справки и могут не соответствовать текущим версиям Xray.
 
 ---
 ---
