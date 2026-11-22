@@ -5,7 +5,6 @@
 - **[MIFA VPN Core](https://github.com/kolpakovden/mifa-vpn-core)** - основной проект MIFA VPN, актуальная разработка и расширенные возможности (сейчас приватный репозиторий).
 - **[MIFA VPN Basic](https://github.com/kolpakovden/mifa-vpn-basic)** - простой установщик для быстрого развёртывания VPN на чистом VPS.
 
-Предыдущий проект с мониторингом: [MIFA VPN Platform](https://github.com/kolpakovden/mifa-vpn-platform).
 
 ---
 
