@@ -1,4 +1,4 @@
-# ⚠️ MIFA VPN Legacy - исторический репозиторий
+## ⚠️ MIFA VPN Legacy - исторический репозиторий
 
 **Архивный проект.** Разработка и поддержка MIFA VPN Legacy завершены. Репозиторий сохраняется для истории; приведённые ниже конфигурации и инструкции могут быть устаревшими.
 
@@ -8,12 +8,11 @@
 Предыдущий проект с мониторингом: [MIFA VPN Platform](https://github.com/kolpakovden/mifa-vpn-platform).
 
 ---
----
----
 
 
 
-# 🛡️ VLESS + Telegram Monitoring + Grafana
+
+## 🛡️ VLESS + Telegram Monitoring + Grafana
 ![Version](https://img.shields.io/badge/version-3.0-blue)
 ![Xray](https://img.shields.io/badge/Xray-25.8.3-green)
 ![Telegram](https://img.shields.io/badge/Telegram-bot-26A5E4)
