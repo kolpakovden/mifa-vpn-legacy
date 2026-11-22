@@ -1,8 +1,11 @@
-# ⚠️ MIFA VPN Legacy — исторический репозиторий
+# ⚠️ MIFA VPN Legacy - исторический репозиторий
 
-Разработка завершена. Репозиторий сохраняется как историческая версия MIFA VPN и предназначен только для чтения. Для новых развёртываний используйте [MIFA VPN Basic](https://github.com/kolpakovden/mifa-vpn-basic). Основная архитектура развивается в [MIFA VPN Core](https://github.com/kolpakovden/mifa-vpn-core) (приватный репозиторий, ссылка доступна только авторизованным участникам).
+**Архивный проект.** Разработка и поддержка MIFA VPN Legacy завершены. Репозиторий сохраняется для истории; приведённые ниже конфигурации и инструкции могут быть устаревшими.
 
-Архивный стек с мониторингом: [MIFA VPN Platform](https://github.com/kolpakovden/mifa-vpn-platform). Примеры ниже оставлены исключительно для справки и могут не соответствовать текущим версиям Xray.
+- **[MIFA VPN Core](https://github.com/kolpakovden/mifa-vpn-core)** - основной проект MIFA VPN, актуальная разработка и расширенные возможности (сейчас приватный репозиторий).
+- **[MIFA VPN Basic](https://github.com/kolpakovden/mifa-vpn-basic)** - простой установщик для быстрого развёртывания VPN на чистом VPS.
+
+Предыдущий проект с мониторингом: [MIFA VPN Platform](https://github.com/kolpakovden/mifa-vpn-platform).
 
 ---
 ---
@@ -25,10 +28,10 @@ Self-hosted VPN server with full monitoring and Telegram control.
 
 Проект объединяет:
 
-- **Xray (VLESS + Reality)** — VPN-сервер
-- **Telegram-боты** — управление пользователями и уведомления
-- **Grafana + Loki** — мониторинг пользовательской активности
-- **Prometheus + Node Exporter** — системные метрики сервера
+- **Xray (VLESS + Reality)** - VPN-сервер
+- **Telegram-боты** - управление пользователями и уведомления
+- **Grafana + Loki** - мониторинг пользовательской активности
+- **Prometheus + Node Exporter** - системные метрики сервера
 
 > Зачем это всё? → [**ABOUT.md**](ABOUT.md)
 
@@ -36,10 +39,10 @@ Self-hosted VPN server with full monitoring and Telegram control.
 
 ## Features
 
-- **VPN** — уникальные UUID, 5 портов, 11 доменов маскировки
-- **Telegram** — уведомления о подключениях + бот управления (/add, /list, /del)
-- **Геолокация** — город, страна, провайдер по IP
-- **Мониторинг** — логи посещений (Grafana + Loki) и ресурсы сервера (Prometheus + Node Exporter)
+- **VPN** - уникальные UUID, 5 портов, 11 доменов маскировки
+- **Telegram** - уведомления о подключениях + бот управления (/add, /list, /del)
+- **Геолокация** - город, страна, провайдер по IP
+- **Мониторинг** - логи посещений (Grafana + Loki) и ресурсы сервера (Prometheus + Node Exporter)
 
 ---
 
@@ -83,8 +86,8 @@ cd MIFA-VPN
 
 ### Monitoring
 
-- **User Activity** — Loki + Promtail (логи посещений)
-- **System Metrics** — Prometheus + Node Exporter (CPU, RAM, Disk, Network)
+- **User Activity** - Loki + Promtail (логи посещений)
+- **System Metrics** - Prometheus + Node Exporter (CPU, RAM, Disk, Network)
 
 Полная инструкция: [`docs/monitoring.md`](docs/monitoring.md)
 
@@ -162,7 +165,7 @@ MIFA-VPN/
 
 # License & Disclaimer
 
-Цель проекта — **бесплатная доступность для всех без коммерческой эксплуатации**.
+Цель проекта - **бесплатная доступность для всех без коммерческой эксплуатации**.
 
 С 24 октября 2026 года новые разрешения на собственные материалы проекта предоставляются по [MIFA Free Noncommercial License 1.0](LICENSE).
 
